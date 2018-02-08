@@ -4,7 +4,7 @@
         <p>{{ schools.message }}</p>
         
         <p ng-repeat="school in schools.data">
-            {{school.theme}}
+           <a ng-href="{{school.site}}">{{school.name}}</a>
         </p>
     </div>
 
