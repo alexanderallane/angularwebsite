@@ -21,19 +21,21 @@ var wbcce = angular.module('wbcce', ['ngRoute']);
 				templateUrl : 'pages/contact.html',
 				controller  : 'contactCtrl as contact'
             })
-            
+            .when('/test', {
+				templateUrl : 'pages/test.php',
+				controller  : 'testCtrl as test'
+			})
             .when('/universities&colleges', {
 				templateUrl : 'pages/schools.html',
 				controller  : 'schoolsCtrl as schools'
             })
-            
             .when('/tracks&strands', {
 				templateUrl : 'pages/tracks&strands.html',
 				controller  : 'tracksCtrl as tracks'
 			})
 
 			.when('/tracks&strands/stem', {
-				templateUrl : 'pages/tracks&strands/stem.html',
+				templateUrl : 'pages/tracks&strands/stem.php',
 				controller  : 'stemCtrl as stem'
 			})
 			.when('/tracks&strands/humss', {

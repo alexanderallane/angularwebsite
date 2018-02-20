@@ -3,7 +3,7 @@
 		function stemController(){
 			var vm = this;
 			
-			vm.message = "This text is in STEM controller";
+			vm.message = "Sorry, this page is under maintenance.";
 		
 		};
 

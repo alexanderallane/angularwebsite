@@ -3,7 +3,7 @@
 		function gasController(){
 			var vm = this;
 			
-			vm.message = "This text is in GAS controller";
+			vm.message = "Sorry, this page is under maintenance.";
 		
 		};
 

@@ -3,7 +3,7 @@ wbcce.controller("tracksCtrl", tracksController)
 		function tracksController(){
 			var vm = this;
 			
-			vm.message = "This text is in Tracks controller";
+			vm.message = "Sorry, this page is under maintenance.";
 			vm.course = coursesData;
 			
 		};

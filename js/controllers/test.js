@@ -1,5 +1,5 @@
-wbcce.controller("contactCtrl", contactController)
-		function contactController() {
+wbcce.controller("testCtrl", testController)
+		function testController() {
 			var vm = this;
 			
 			vm.message = 'Sorry, this page is under maintenance.';

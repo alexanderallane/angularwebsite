@@ -3,7 +3,7 @@
 		function humssController(){
 			var vm = this;
 			
-			vm.message = "This text is in HUMSS controller";
+			vm.message = "Sorry, this page is under maintenance.";
 		
 		};
 

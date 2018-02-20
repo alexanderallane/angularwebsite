@@ -1,5 +1,5 @@
 wbcce.controller("aboutCtrl", aboutController)
 		function aboutController(){
 			var vm = this;
-			vm.message = 'Look! I am an about page.';
+			vm.message = 'Sorry, this page is under maintenance.';
 		};

@@ -3,7 +3,7 @@
 		function schoolsController(){
 			var vm = this;
 			
-			vm.message = "This text is in School controller";
+			vm.message = "Sorry, this page is under maintenance.";
 		
 		};
 
